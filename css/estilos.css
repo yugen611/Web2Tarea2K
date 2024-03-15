@@ -1,0 +1,105 @@
+*{
+    background-color: gray;
+}
+.padre1{
+     background-color: black;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     border-color: black; 
+}
+
+.padre3{
+    border-style: solid;
+    border-color: black;
+}
+
+
+
+.hijo1{
+    background-color: brown;
+   
+    margin: 5px;
+    height: 100px;    
+}
+.hijo2{
+    background-color: black;
+   
+    margin: 5px;
+    
+    height: 100px; 
+
+
+    display: flex; /*esto hace que las caja se ajusten a la pagina*/
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+.hijo3{
+    background-color: aqua;
+    height: 100px;
+    width: 60%;
+    margin-right: 10px;
+     
+
+}
+.hijo4{
+    background-color: chocolate;
+    height: 100px;
+    width: 17%;
+    margin-right: 10px;
+    display: flex; 
+}
+.hijo5{
+    background-color: chartreuse;
+    height: 100px;
+    width: 37%;
+    margin-right: 10px;
+
+}
+.hijo6{
+    background-color: black;
+    margin: 5px;
+    height: 100px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+.hijox{
+    background-color:black   
+}
+.hijo{
+    background-color: coral;
+    width: 500000%;
+    height: 20%;
+    margin-right: 10px;
+
+
+}
+.x1{
+    background-color: black;
+    width: 500000%;
+    height: 10%;
+}
+.hij1{
+    background-color: blue;
+    height: 75px;
+}
+.hij2{
+    background-color: blue;
+    height: 200px;
+
+    display: grid;
+
+   grid-template-columns: 50%  20% auto auto; 
+   /*grid-template-rows: 250px 100px auto;*/
+    justify-content: space-between
+
+}
+.hij3{
+    background-color: darkgreen;
+    height: 100px;
+    width: 100px;
+}
+
+
+
